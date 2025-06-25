@@ -7,7 +7,7 @@ const resetBtn = document.querySelector(".reset > button")
 let displayValue = 0;
 let stepValue = Number(stepController.value); 
 
-stepController.addEventListener('click' , (event) => {
+stepController.addEventListener('change' , (event) => {
     stepValue = Number(event.target.value);
 })
 
